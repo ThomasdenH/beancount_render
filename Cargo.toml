@@ -1,0 +1,11 @@
+[package]
+name = "beancount_render"
+version = "0.1.0"
+authors = ["Thomas <denhollander.thomas@gmail.com>"]
+edition = "2018"
+
+[lib]
+
+[dependencies]
+beancount = { git = "https://github.com/twilco/beancount.git" }
+thiserror = "1"
